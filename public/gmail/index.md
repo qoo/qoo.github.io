@@ -24,4 +24,5 @@ and no data collection by the developer.
 ## Links
 
 - [Privacy Policy](privacy.html)
+- [Terms of Service](terms.html)
 - Contact: [yehchenghung@gmail.com](mailto:yehchenghung@gmail.com)
