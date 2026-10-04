@@ -17,9 +17,13 @@ By using the App you agree to these Terms. If you do not agree, do not use the A
 
 ## 1. Description of the App
 
-The App is a free, personal tool that runs locally on your computer and uses the
-official Gmail API to search your mailbox, preview matching emails, and, only after
-your explicit confirmation, move them to Trash or permanently delete them.
+The App is a free, personal tool that runs locally on your computer and uses official
+Google APIs to:
+
+- **Gmail:** search your mailbox, preview matching emails, read emails you ask about, and,
+  only after your explicit confirmation, move them to Trash or permanently delete them;
+- **Google Sheets:** read spreadsheets you specify and, only at your request, write values
+  into the cells you specify.
 
 ## 2. Eligibility and your Google account
 
@@ -35,7 +39,11 @@ your explicit confirmation, move them to Trash or permanently delete them.
 - **Permanent deletion cannot be undone.** Emails moved to Trash can usually be recovered
   within 30 days; emails that are permanently deleted cannot be recovered by the App,
   the developer, or (in most cases) Google.
-- Back up any important emails before running cleanup actions.
+- **Check spreadsheet edits.** Values written to a spreadsheet replace what was in those
+  cells. Use Google Sheets' version history (File › Version history) to restore if needed.
+- Back up any important emails or spreadsheets before running cleanup or edit actions.
+- If you operate the App through an AI assistant, you are responsible for reviewing what it
+  does on your behalf.
 - You agree not to use the App for any unlawful purpose or in violation of
   [Google's Terms of Service](https://policies.google.com/terms) or the
   [Gmail Program Policies](https://support.google.com/mail/answer/10356765).
@@ -65,13 +73,13 @@ that the App will always be available or compatible with future changes to the G
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY
 INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF DATA,
 EMAILS, PROFITS, OR GOODWILL, ARISING FROM YOUR USE OF OR INABILITY TO USE THE APP,
-INCLUDING ANY EMAILS DELETED AS A RESULT OF ACTIONS YOU CONFIRMED.
+INCLUDING ANY EMAILS DELETED OR SPREADSHEET VALUES CHANGED AS A RESULT OF ACTIONS YOU REQUESTED OR CONFIRMED.
 
 ## 8. Termination
 
 You may stop using the App at any time by revoking its access at
 [Google Account › Security › Third-party apps](https://myaccount.google.com/permissions)
-and deleting the local `token.json` file. The developer may discontinue the App at any time.
+and deleting the local `token.json` / `token_<name>.json` files. The developer may discontinue the App at any time.
 
 ## 9. Changes to these Terms
 

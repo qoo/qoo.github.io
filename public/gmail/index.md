@@ -17,9 +17,12 @@ such as expired verification codes, old notifications, newsletters, and large at
 - Shows a preview (count, estimated size, sample subjects) before any action.
 - Only after your explicit confirmation, moves matching emails to Trash or permanently deletes them.
 - Skips starred, important, invoice, and receipt emails by default.
+- Reads Google Sheets you specify and, at your request, fills in values.
+- Supports more than one Google account, each with its own local sign-in token.
 
 The tool runs entirely on your own computer. There is no server, no account system,
 and no data collection by the developer.
+If you choose to drive it with an AI assistant, see the [Privacy Policy](privacy.html#4-data-sharing).
 
 ## Links
 
